@@ -4,7 +4,7 @@
 
 > Transforming operational retail data into an interactive digital twin that supports merchandising, navigation, planning, and operational decision-making.
 
-![Hero Banner](assets/readme/hero_banner.png)
+![Hero Banner](assets/readme/digital_twin_hero.png)
 
 ![Unity](https://img.shields.io/badge/Unity-6-black?logo=unity)
 ![C%23](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
@@ -26,11 +26,11 @@ Instead of relying solely on spreadsheets, floor plans, and merchandising direct
 
 🎥 **Project Demonstration**
 
-*(Coming Soon)*
+![Video Walkthrough](https://www.youtube.com/watch?v=wC4Yr8rvEIE)
 
 📖 **Portfolio Case Study**
 
-*(Coming Soon)*
+![Case Study] (assets/readme/system_architecture.png)
 
 ---
 
