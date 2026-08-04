@@ -1,72 +1,79 @@
+# Retail Digital Twin Platform
+
 ### Interactive 3D Visualization & Decision Support for Retail Operations
 
 > Transforming operational retail data into an interactive digital twin that supports merchandising, navigation, planning, and operational decision-making.
 
-![Retail Digital Twin](assets/readme/digital_twin_hero.png)
+![Retail Digital Twin Platform](assets/readme/digital_twin_hero.png)
 
 ![Unity](https://img.shields.io/badge/Unity-6-black?logo=unity)
-![C%23](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Prototype-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 The **Retail Digital Twin Platform** transforms operational retail information into an interactive three-dimensional representation of a real retail store.
 
-Instead of relying on spreadsheets, merchandising directives and printed layouts, the platform combines operational metadata with an immersive Unity environment, allowing users to search products, navigate the store, visualize merchandising zones, and better understand retail operations through an interactive digital twin.
+Instead of relying on spreadsheets, merchandising directives, printed layouts, and product catalogues, the platform combines operational metadata with an immersive Unity environment that enables interactive exploration, product search, navigation, visualization, and operational decision support.
 
 ---
 
-# Live Experience
+# 🌐 Live Experience
 
-🌐 **Interactive WebGL Demo**
+### Live WebGL Application
 
-*(GitHub Pages URL)*
+![Live Application](https://diaziturbe.github.io/retail-digital-twin-platform/)
 
-🎥 **Video Demonstration**
+### Project Walkthrough
 
-*(YouTube / Portfolio Link)*
+[![Watch the Demonstration](assets/readme/video_cover.png)](https://www.youtube.com/watch?v=wC4Yr8rvEIE)
 
-📖 **Portfolio Case Study**
+### Portfolio Case Study
 
-*(Coming Soon)*
+> *(Add portfolio case study URL when published)*
 
 ---
 
-# Project Snapshot
+# 📌 Project Snapshot
 
 - 🏬 Interactive digital replica of a real retail store
-- 📦 1,647 operational product locations
-- ✅ Zero missing products after metadata validation
-- 🔎 Instant product search
-- 🧭 Automatic navigation to any product
+- 📦 1,647 operational product-location records
+- ✅ Zero unresolved product mappings
+- 🔎 Instant SKU and metadata search
+- 🧭 Automatic navigation to products
 - 🎯 Interactive merchandising zone highlighting
 - 🐍 Python-powered metadata generation pipeline
+- 🎮 Unity WebGL deployment
 
 ---
 
 # Executive Summary
 
-Large retail stores manage thousands of products distributed across dozens of departments and merchandising zones.
+Large retail stores manage thousands of products distributed across dozens of departments, fixtures, and merchandising zones.
 
-Although operational data exists in spreadsheets, product catalogues and merchandising directives, those resources rarely communicate one critical element: **space**.
+Although operational information already exists inside spreadsheets, product catalogues, and merchandising directives, these resources rarely communicate one essential component:
 
-The Retail Digital Twin Platform transforms operational retail information into a living digital environment that mirrors a real store.
+> **Space.**
 
-Managers and merchandising teams can explore the store virtually, locate products instantly, understand layouts, visualize merchandising information and interact with operational data in ways that traditional reports cannot provide.
+The Retail Digital Twin Platform transforms operational retail data into an interactive environment where merchandising information becomes spatially understandable.
+
+Instead of interpreting multiple disconnected documents, managers can explore the store virtually, locate products instantly, understand layouts, and visualize merchandising decisions in context.
 
 ---
 
 # The Challenge
 
-Retail operations depend on numerous disconnected information sources.
+Retail operations depend on numerous disconnected information sources:
 
 - Product catalogues
-- Inventory spreadsheets
 - Merchandising directives
 - Floor plans
+- Product images
+- Store layouts
+- Operational spreadsheets
 - Staff experience
 
-While these documents accurately describe products and layouts, they do not communicate the physical environment effectively.
+While these documents accurately describe products, they do not communicate the physical retail environment effectively.
 
 Understanding where products are located, how departments connect, or how merchandising changes impact the store often requires significant manual interpretation.
 
@@ -74,19 +81,64 @@ Understanding where products are located, how departments connect, or how mercha
 
 # The Solution
 
-The Retail Digital Twin Platform combines automated data preparation with an interactive Unity visualization environment.
+The Retail Digital Twin Platform combines automated Python data engineering with an interactive Unity visualization layer.
 
-Operational metadata is processed using Python before being imported into Unity, where it becomes an intelligent digital representation of the store.
+Operational metadata is validated, transformed, and synchronized before being imported into Unity, where it becomes an intelligent three-dimensional representation of the store.
 
-The result is an operational decision-support platform capable of supporting merchandising, planning, training and store visualization.
+The result is a practical operational decision-support platform capable of improving planning, visualization, navigation, communication, and training.
 
 ---
 
-# Live Demonstration
+# 🏗 System Architecture
 
-The platform can be explored directly in the browser using Unity WebGL.
+The platform follows a five-layer architecture that transforms operational retail information into an interactive decision-support application.
 
-Click the image below to watch the complete walkthrough.
+![System Architecture](assets/readme/system_architecture.png)
+
+### Layer 1 — Operational Retail Data
+
+- Store layouts
+- Product catalogue
+- Merchandising metadata
+- Product image library
+
+### Layer 2 — Python Data Engineering Pipeline
+
+- Excel extraction
+- Data cleaning
+- Product validation
+- Metadata generation
+- CSV synchronization
+
+### Layer 3 — Unity Digital Twin Core
+
+- Interactive 3D environment
+- Metadata importer
+- Display zones
+- Product-location database
+- NavMesh navigation
+- WebGL deployment
+
+### Layer 4 — Interactive Capabilities
+
+- Product search
+- Operational filters
+- Automatic navigation
+- Zone highlighting
+- Camera presets
+
+### Layer 5 — Decision Support
+
+- Visual merchandising planning
+- Product location assistance
+- Store familiarization
+- Layout communication
+
+---
+
+# 🎥 Live Demonstration
+
+Explore the interactive digital twin in action.
 
 [![Retail Digital Twin Demo](assets/readme/video_cover.png)](https://www.youtube.com/watch?v=wC4Yr8rvEIE)
 
@@ -96,27 +148,33 @@ Click the image below to watch the complete walkthrough.
 
 ## Interactive Store Overview
 
-Explore the complete retail environment while maintaining the real spatial relationships between departments, fixtures and merchandising zones.
+Explore the complete retail environment while preserving the real spatial relationships between departments, fixtures, and merchandising zones.
 
-![Store Overview](assets/readme/store_overview.png)
+![Store Overview](assets/readme/hero_store_view.png)
 
 ---
 
 ## Product Search & Operational Filters
 
-Locate products instantly using SKU search or operational filters.
+Locate products instantly using operational filters including Brand, Department, Gender, Sport, Promotions, and Best Sellers.
 
-Available filters include:
+![Search Filters](assets/readme/search_filters.png)
 
+---
+
+## Product Metadata
+
+Every displayed product is connected to operational metadata, allowing users to retrieve product information directly from the digital twin.
+
+- SKU
 - Brand
 - Department
 - Gender
 - Sport
-- Sale
-- Best Sellers
-- JD Access
+- Product image
+- Display location
 
-![Search](assets/readme/search_filters.png)
+![Metadata](assets/readme/product_metadata.png)
 
 ---
 
@@ -124,144 +182,51 @@ Available filters include:
 
 Navigate directly to any product location using Unity's NavMesh navigation system.
 
-The platform automatically guides users through the store to the selected product.
-
-![Navigation](assets/readme/navigation.png)
-
----
-
-## Product Metadata
-
-Every displayed product is connected to operational metadata.
-
-Users can retrieve:
-
-- Product image
-- SKU
-- Department
-- Brand
-- Category
-- Display location
-
-![Metadata](assets/readme/product_metadata.png)
-
----
-
-## Zone Highlighting
-
-Visualize merchandising zones and display walls interactively to better understand the operational layout of the store.
-
-![Zones](assets/readme/zone_highlighting.png)
+![Navigation](assets/readme/navigation_demo.png)
 
 ---
 
 ## Brand & Department Visualization
 
-Quickly isolate products by operational attributes.
-
-Examples include:
-
-- Nike
-- Adidas
-- Men's
-- Women's
-- Footwear
-- Accessories
-
-making merchandising analysis considerably easier.
+Quickly isolate merchandising displays using operational filters.
 
 ![Brand Filter](assets/readme/brand_filter.png)
 
 ---
 
-# From Operational Data to Interactive Visualization
+## Zone Highlighting
 
-The digital twin is generated through an automated metadata pipeline.
+Visualize merchandising zones and display walls interactively.
 
-![Pipeline](assets/readme/data_pipeline.png)
-
-```
-Store Layout
-
-Product Catalogue
-
-Merchandising Information
-
-↓
-
-Python Metadata Generator
-
-↓
-
-CSV Metadata
-
-↓
-
-Unity Import Pipeline
-
-↓
-
-Retail Digital Twin
-
-↓
-
-Search
-Navigation
-Visualization
-Planning
-```
-
-The automated workflow allows operational information to be updated without manually rebuilding the Unity environment.
+![Zone Highlighting](assets/readme/zone_highlighting.png)
 
 ---
 
-# Real-World Applications
+# 🛠 Building the Digital Twin
 
-Although developed as a retail proof-of-concept, the platform demonstrates how digital twins can support operational decision-making.
+The interactive environment is generated through an automated pipeline that combines operational data with spatial configuration.
 
-Potential applications include:
+## Display Zone Configuration
 
-- Visual merchandising planning
-- New employee onboarding
-- Store familiarization
-- Product location assistance
-- Merchandising directive communication
-- Layout validation
-- Operational planning
-- Interactive training
-- Future digital twin initiatives
+Merchandising walls, display fixtures, and operational zones are spatially configured inside Unity before metadata is attached.
+
+![Display Zones](assets/readme/display_zone_editor.png)
 
 ---
 
-# Key Features
+## Merchandising Layout Representation
 
-## Interactive Visualization
+The virtual environment mirrors the physical retail layout, allowing future merchandising changes to be planned and communicated visually.
 
-- Real-time 3D store exploration
-- Camera presets
-- Free camera navigation
-- Interactive environment
+![Fixture Layout](assets/readme/fixture_layout.png)
 
-### Product Discovery
+---
 
-- SKU search
-- Product metadata
-- Product images
-- Store-wide lookup
+## Unity Development Environment
 
-### Operational Analytics
+The project was developed entirely inside Unity using custom scripts, prefabs, metadata importers, and StreamingAssets synchronization.
 
-- Department highlighting
-- Brand filtering
-- Merchandising visualization
-- Display wall visualization
-
-### Data Integration
-
-- Python preprocessing
-- Automated metadata generation
-- CSV synchronization
-- Unity import pipeline
+![Unity Development](assets/readme/unity_development.png)
 
 ---
 
@@ -271,10 +236,11 @@ Potential applications include:
 |--------|--------------|
 | Visualization | Unity 6 |
 | Programming | C# |
-| Data Processing | Python |
-| Metadata Storage | CSV |
+| Data Engineering | Python |
+| Metadata | CSV |
 | Navigation | Unity NavMesh |
-| User Interface | Unity UI |
+| UI | Unity UI Toolkit |
+| Deployment | Unity WebGL |
 | Version Control | Git & GitHub |
 
 ---
@@ -282,23 +248,41 @@ Potential applications include:
 # Repository Structure
 
 ```text
-Assets/
-├── Scenes/
-├── Scripts/
-├── Prefabs/
-├── Resources/
-├── StreamingAssets/
-├── UI/
-└── Materials/
+📁 Assets
+├── 📁 Scenes
+├── 📁 Scripts
+├── 📁 Prefabs
+├── 📁 Materials
+├── 📁 Resources
+├── 📁 StreamingAssets
+└── 📁 UI
 
-Python/
-├── Metadata Generator
-├── CSV Builder
-└── Data Processing
+📁 Python
+├── 📄 Metadata Generator
+├── 📄 CSV Builder
+└── 📄 Data Processing
 
-Build/
-Documentation/
+📁 Build
+
+📁 Documentation
 ```
+
+---
+
+# Real-World Applications
+
+Although initially developed as a retail proof-of-concept, the underlying architecture can support numerous operational scenarios.
+
+- Visual Merchandising Planning
+- Product Location Assistance
+- Interactive Store Familiarization
+- Layout Validation
+- Merchandising Communication
+- Operational Planning
+- Interactive Training
+- Multi-store Digital Twins
+- Future GIS Integration
+- Operational Analytics
 
 ---
 
@@ -306,19 +290,21 @@ Documentation/
 
 ### Next Improvements
 
-- Enhanced UI
+- Improved navigation experience
 - Additional metadata panels
-- Improved search experience
+- Better UI/UX
 - Performance optimization
+- Enhanced search capabilities
 
 ### Long-Term Vision
 
 - Azure Digital Twins integration
-- GIS integration
+- ArcGIS integration
 - Multi-store environments
 - Live inventory synchronization
 - AI-assisted merchandising recommendations
 - Space optimization analytics
+- Operational dashboards
 - Customer movement visualization
 
 ---
@@ -329,7 +315,7 @@ Documentation/
 
 Data Analytics • Retail Operations • Automation • Interactive Visualization
 
-This project demonstrates how operational data, software engineering and interactive visualization can be combined to create practical decision-support tools for real-world retail environments.
+This project demonstrates how operational data, software engineering, and interactive visualization can be combined to create practical decision-support tools for real-world retail environments.
 
 ---
 
