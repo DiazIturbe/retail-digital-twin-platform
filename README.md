@@ -22,7 +22,7 @@ Instead of relying on spreadsheets, merchandising directives, printed layouts, a
 
 ### Live WebGL Application
 
-![Live Application](https://diaziturbe.github.io/retail-digital-twin-platform/)
+https://diaziturbe.github.io/retail-digital-twin-platform/
 
 ### Project Walkthrough
 
