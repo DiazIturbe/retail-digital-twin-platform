@@ -30,7 +30,7 @@ Instead of relying on spreadsheets, merchandising directives, printed layouts, a
 
 ### Portfolio Case Study
 
-> *(Add portfolio case study URL when published)*
+> *(Coming soon)*
 
 ---
 
